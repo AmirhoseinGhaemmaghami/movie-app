@@ -1,2 +1,14 @@
-@import './styles/normalize';
-@import './styles/fonts';
+@import "./styles/normalize";
+@import "./styles/fonts";
+@import "./styles/colors";
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: $white;
+  background-color: $bgColor;
+}
+
+a {
+  text-decoration: none;
+}
